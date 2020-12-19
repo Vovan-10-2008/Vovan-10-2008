@@ -1,0 +1,291 @@
+.menu{
+	text-align: center;
+}
+html{
+	scroll-behavior: smooth;
+}
+
+.menu a {
+	color: black;
+	text-decoration: none;
+	display: inline-block;
+	width: 100px;
+}
+.menu a:hover {
+	color:blue;
+}
+.header{
+	text-align: center;
+	background-image: url(polygons.png); /* картинка на фон*/
+
+	background-repeat: no-repeat; /*отключаем повторение фона*/
+
+	background-position: top center; /*закрепляем фон сверху и по центру*/
+	padding: 200px 0;
+
+}
+
+.header a{
+	background: white;
+	font-family: 'Russo One', sans-serif;
+	border-radius: 10px;
+	color: #00406f;
+	padding: 10px;
+	text-decoration: none;
+	margin: 30px auto;
+	display: inline-block;
+}
+
+
+h1 {
+	font-family: 'Russo One', sans-serif;
+	color: white;
+	text-shadow: 0 0 10px rgba(0,0,0,0.5);
+
+}
+
+p {
+	font-family: 'Russo One', sans-serif;
+}
+
+img {
+	width: 30%;
+
+}
+
+.menu {
+	font-family: 'Balsamiq Sans', sans-serif;
+}
+
+.company p {
+	width: 30%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.company h2 {
+	text-align: center;
+	font-family: 'Russo One', sans-serif;
+}
+
+.company {
+	text-align: center;
+}
+
+.games  section {
+	display: inline-block;
+	text-align: center;
+	width: 33%
+
+}
+
+.games h2 {
+	text-align: center;
+	font-family: 'Russo One', sans-serif;
+}
+
+.games h4 {
+	font-family: 'Balsamiq Sans', sans-serif;
+	color: #fff;
+	text-align: center;
+	text-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.games section:nth-of-type(1){
+	background-image: url('c.jpg');
+	background-size: cover;
+}
+.games section:nth-of-type(2){
+	background-image: url('pubg.jpeg');
+	background-size: cover;
+}
+
+.games ul {
+	font-family: 'Russo One', sans-serif;
+	color: #fff;
+	background-color: rgba(0,0,0,0.5);
+}
+
+.games section:nth-of-type(3){
+	background-image: url('minecraft.jpg');
+	background-size: cover;
+}
+
+.games a:not(.register){
+	text-align: center;
+	background:#DD2C00; 
+	font-family: 'Russo One', sans-serif;
+	color: #fff;
+	text-decoration: none;
+	margin: 20px auto;
+	display: inline-block;
+	line-height:30px;
+	width: 30%;
+	border-radius: 10px;
+
+} 
+
+.register {
+	margin: 20px auto;
+	display: block;
+	width: 30%;
+	line-height:50px;
+	font-size: 30px; 
+	background:green;
+	color: #fff;
+	text-decoration: none; 
+	text-align: center;
+	font-family: 'Russo One', sans-serif;
+	border-radius: 10px;
+	transition: 0.3s;
+
+}
+
+.games a:not(.register):hover{
+	background:#330109;
+
+}
+
+
+.register:hover{
+	background:#00381D;
+}	 	
+
+.games ul li{
+	line-height: 25px;
+}
+
+.team {
+	text-align: center;
+}
+
+
+.team h2{
+	text-align: center;
+	font-family: 'Russo One', sans-serif;	
+}
+
+.team section{
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	width:30%;
+	border-radius: 12.5%;
+	overflow: hidden;
+	text-align: center;
+	display: inline-block;
+	margin: 10px;
+	vertical-align: top;
+
+}
+
+.team section img{
+	width:100%;
+	height: 250px;
+	object-fit: cover;
+}
+
+.team a{
+	font-family: 'Russo One', sans-serif;
+	background:green;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 10px;
+	transition: 0.3s;
+	padding: 10px;
+	display: inline-block;
+	margin-bottom: 10px;
+}
+
+form{
+	background: #b1b1b1;
+	width: 400px;
+	margin: auto;
+	text-align: center;
+	overflow: hidden;
+	border-radius: 6px;
+
+
+}
+
+form input{
+	display: block;
+	margin: auto;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	border-radius: 6px;
+	border: none;
+	font-family: 'Russo One', sans-serif;	
+	
+
+}
+
+textarea {
+	display: block;
+	width: 90%;
+	margin: auto;
+	resize: none;
+	border: none;
+	border-radius: 6px;
+
+}
+
+form button {
+	text-align: center;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	width: 30%;
+	height: 30px;
+	border-radius: 6px;
+	border: none;
+	background: #fff;
+	transition: 0.3s;
+}
+
+form button:hover {
+	background: #767676;
+
+}
+
+#FeedBack h2 {
+	text-align: center;
+
+}
+
+#FeedBack p{
+	text-align: center;
+
+}
+
+@media (max-width: 600px){
+	.menu a {
+		display: block;
+		text-align:  center;
+		width: auto;
+		line-height: 40px;
+	}
+	form{
+		width: 90%;	
+	}
+
+	.games section {
+		width: 90%;
+		display: block;
+		margin: auto;
+	}
+
+    img {
+    	width: 90%;
+    } 
+
+    .company p {
+    	width: 90%;
+    	text-align: left;
+    }
+	.team section {
+		width: 90%;
+	}
+	form input {
+		height: 30px;
+	}
+
+}
+
