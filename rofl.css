@@ -286,6 +286,9 @@ form button:hover {
 	form input {
 		height: 30px;
 	}
+	.register {
+		width: 90%;
+	}
 
 }
 
